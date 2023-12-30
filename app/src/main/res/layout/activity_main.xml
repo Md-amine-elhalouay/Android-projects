@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="350dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                app:cardCornerRadius="8dp">
+
+                <!-- Add your content here, for example, a TextView -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Card Content"
+                    android:textSize="18sp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/btnTranslate"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Translate" />
+
+            <Button
+                android:id="@+id/btnRotate"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:text="Rotate" />
+
+            <Button
+                android:id="@+id/btnScale"
+                android:layout_width="168dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Scale" />
+
+            <Button
+                android:id="@+id/btnAlpha"
+                android:layout_width="168dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Alpha" />
+
+            <Button
+                android:id="@+id/btnFadeIn"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Fade In" />
+
+            <Button
+                android:id="@+id/btnFadeOut"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Fade Out" />
+
+            <Button
+                android:id="@+id/btnZoomIn"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Zoom In" />
+
+            <Button
+                android:id="@+id/btnZoomOut"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Zoom Out" />
+
+            <Button
+                android:id="@+id/btnRotate2"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="-480dp"
+                android:text="Rotate 2" />
+
+            <Button
+                android:id="@+id/btnSlideUp"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:text="Slide Up"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:id="@+id/btnSlideDown"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:text="Slide Down"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:id="@+id/btnSlideRight"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:text="Slide Right"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:id="@+id/btnSlideLeft"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:text="Slide Left"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
